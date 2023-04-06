@@ -1,17 +1,7 @@
 # PurrfectMatch
 
-School project
-Hello! T:Minna
+School project for Software Engineering and Modelling -course
 
-Moi T.Saara
+With our website user can find animals that need new homes from a map and be in contact with other users like animal shelters. There are two kinds of profiles; candidates for adoptions and associations that have the homeless animals.
 
-testi t. neea (branch test) another test
-
-Testing testing t. Anniina
-
-
-Uusi muutos omassa branchissa.
-
-
-Testiä t. Nanna
-
+Credits:
