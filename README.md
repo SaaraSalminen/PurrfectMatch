@@ -7,4 +7,6 @@ testi t. neea (branch test)
 Testing testing t. Anniina
 Uusi muutos omassa branchissa.
 Testiä t. Nanna 
+Muutos omaan branchiin 'nanna'
+
 Moi T.Jenny
