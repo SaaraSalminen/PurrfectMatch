@@ -38,3 +38,7 @@
     background-color: #CCA7FB;
     color: rgb(0, 0, 0);
 }
+
+img { 
+    max-width: 100%;
+}
