@@ -13,7 +13,7 @@
         <a href="#home" class="active">Purrfect Match</a>
         <div id="nav-links">
             <a href="animalProfile.html">Animals looking for new homes</a>
-            <a href="#about">About us</a>
+            <a href="aboutUs.html">About us</a>
             <a href="Profile.html">Profiles</a>
         </div>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -21,19 +21,41 @@
           </a>
     </div>
     <h1>Purrfect match</h1>
+    <div class="animal-pic">
+        <img src="images/alkukuva.jpg" alt="placeholder">
+    </div>
+    <div class="news-section">
+        <h2>News</h2>
+        <div class="news-article">
+            <img src="images/uutinen1.jpg" alt="Fundraising campaign">
+            <h3>Fundraising Campaign</h3>
+            <p>Join us in our efforts to raise funds for our animal shelter. Every little bit helps!</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="news-article">
+            <img src="images/uutinen2.jpg" alt="Dog adoption">
+            <h3>Dog Adoption Event</h3>
+            <p>Come meet our dogs and find your new best friend at our adoption event this Saturday!</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="news-article">
+            <img src="images/uutinen3.jpg" alt="Cat rescue">
+            <h3>Cat Rescue Mission</h3>
+            <p>Our team of volunteers went on a rescue mission to save cats from an abandoned building. Read their story here.</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
 
-<script>
-    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-    function myFunction() {
-    var x = document.getElementById("nav-links");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-    }
-</script>
-
-
+    <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function myFunction() {
+        var x = document.getElementById("nav-links");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+        }
+    </script>
 </body>
 </html>
