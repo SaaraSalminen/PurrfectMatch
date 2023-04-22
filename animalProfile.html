@@ -1,109 +1,51 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Animal Profile - Viiru</title>
-  </head>
-  <body>
-    <div class="top-nav">
-      <a href="#home" class="active">Purrfect Match</a>
-      <div id="nav-links">
-        <a href="#animals">Animals looking for new homes</a>
-        <a href="#about">About us</a>
-        <a href="Profile.html">Profiles</a>
-      </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
+    <title>Animals looking for new homes</title>
+    
+        
+</head>
+<body>
+    <div class="top-nav" style="background-color: #CCA7FB">
+        <a href="#home">Purrfect Match</a>
+        <div id="nav-links">
+            <a href="animalProfile.html" class="active">Animals looking for new homes</a>
+            <a href="#about">About us</a>
+            <a href="Profile.html">Profiles</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
-    <h1>Fluffy</h1>
-    <img src="images/harmaa kissa.jpg" alt="Picture of Viiru">
-    <p><strong>Type: </strong> Cat</p>
-    <p><strong>Breed:</strong> Mixed breed</p>
-    <p><strong>Age:</strong> 3 years old</p>
-    <p><strong>Gender:</strong> Female</p>
-    <p><strong>Location:</strong> Turku, Kupittaa</p>
-    <p><strong>Description:</strong> Viiru is a very affectionate and friendly cat who loves to cuddle and play. She is up to date on all her vaccinations and is litter box trained.</p>
-    <button>Adopt Now</button>
-    <button>Contact Shelter</button>
-  </body>
+
+    <h1>Animals looking for new homes</h1>
+
+    <div class="animal-menu">
+        <a href="catProfile.html" class="animal-menu-item">Cats looking for adoption</a>
+        <a href="dogProfile.html" class="animal-menu-item">Dogs looking for adoption</a>
+    </div>
+
+    <div class="animal-pic">
+        <img src="images/keltainen kissa.jpg" alt="placeholder">
+    </div>
+
+    <!-- Add your animal profile content here -->
+
+    <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function myFunction() {
+            var x = document.getElementById("nav-links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
 </html>
-
-
-<!-- Animal Profile 2 -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Animal Profile - Topi</title>
-  </head>
-  <body>
-    <h1>Duke</h1>
-    <img src="images/iso koira.jpg" alt="Picture of Topi">
-    <p><strong>Type: </strong> Dog</p>
-    <p><strong>Breed:</strong> Bernardine</p>
-    <p><strong>Age:</strong> 2 years old</p>
-    <p><strong>Gender:</strong> Male</p>
-    <p><strong>Location:</strong> Turku, Varissuo</p>
-    <p><strong>Description:</strong> Duke is a playful and energetic dog who loves to go for walks and play fetch. He is good with children and other dogs and is house trained.</p>
-    <button>Adopt Now</button>
-    <button>Contact Shelter</button>
-  </body>
-</html>
-
-<!-- Animal Profile 3 -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Animal Profile - Luna</title>
-  </head>
-  <body>
-    <h1>Luna</h1>
-    <img src="images/keskikokoinen koira.jpg" alt="Image of Luna">
-    <p><strong>Type: </strong> Dog</p>
-    <p><strong>Breed:</strong> Mixed breed</p>
-    <p><strong>Age:</strong> 1 year old</p>
-    <p><strong>Gender:</strong> Female</p>
-    <p><strong>Location:</strong> Turku, Portsa</p>
-    <p><strong>Description:</strong> Luna is a very social and curious dog who loves to explore her surroundings. She is up to date on all her vaccinations.</p>
-    <button>Adopt Now</button>
-    <button>Contact Shelter</button>
-  </body>
-</html>
-
-<!-- Animal Profile 4 -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Animal Profile - Rocky</title>
-  </head>
-  <body>
-    <h1>Rocky</h1>
-    <img src="images/keltainen kissa.jpg" alt="Image of Rocky">
-    <p><strong>Type: </strong> Cat</p>
-    <p><strong>Breed:</strong> Yellow cat</p>
-    <p><strong>Age:</strong> 4 years old</p>
-    <p><strong>Gender:</trong> Turku, Mäntymäki</p>
-        <p><strong>Description:</strong> Rocky is a very social and curious cat who loves to explore her surroundings. He is up to date on all her vaccinations and is litter box trained.</p>
-        <button>Adopt Now</button>
-        <button>Contact Shelter</button>
-      </body>
-    </html>

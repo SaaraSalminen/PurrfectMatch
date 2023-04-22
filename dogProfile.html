@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dogs looking for adoption</title>
+</head>
+<body>
+  <div class="top-nav">
+    <a href="index.html">Purrfect Match</a>
+    <div id="nav-links">
+      <a href="animalProfile.html">Animals looking for new homes</a>
+      <a href="#about">About us</a>
+      <a href="Profile.html">Profiles</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="back-button">
+    <a href="animalProfile.html">Back</a>
+  </div>
+
+  <h1>Dogs looking for adoption</h1>
+
+  <div class="animal-profile">
+    <div class="profile-card">
+      <img src="images/iso koira.jpg" alt="Dog 1" class="profile-image">
+      <h2 class="profile-name">Panu</h2>
+      <p class="profile-gender">Gender: Male</p>
+      <p class="profile-location">Located in: Turku, Kähäri</p>
+      <p class="profile-age">Age: 2 years old</p>
+      <p class="profile-description">Description: Buddy is a friendly and active dog who loves playing fetch and going for walks. He's good with kids and other dogs, and will make a great companion.</p>
+    </div>
+    <div class="profile-card">
+      <img src="images/keskikokoinen koira.jpg" alt="Dog 2" class="profile-image">
+      <h2 class="profile-name">Luna</h2>
+      <p class="profile-gender">Gender: Female</p>
+      <p class="profile-location">Located in: Turku, Hirvensalo</p>
+      <p class="profile-age">Age: 4 years old</p>
+      <p class="profile-description">Description: Daisy is a gentle and affectionate dog who loves to cuddle. She's house-trained and knows basic commands. She'll make a great addition to any family.</p>
+    </div>
+  </div>
+
+  <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function myFunction() {
+      var x = document.getElementById("nav-links");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>

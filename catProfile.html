@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cats looking for adoption</title>
+</head>
+<body>
+  <div class="top-nav">
+    <a href="index.html">Purrfect Match</a>
+    <div id="nav-links">
+      <a href="animalProfile.html">Animals looking for new homes</a>
+      <a href="#about">About us</a>
+      <a href="Profile.html">Profiles</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="back-button">
+    <a href="animalProfile.html">Back</a>
+  </div>
+
+  <h1>Cats looking for adoption</h1>
+
+  <div class="animal-profile">
+    <div class="profile-card">
+      <img src="images/harmaa kissa.jpg" alt="Cat 1" class="profile-image">
+      <h2 class="profile-name">Viiru</h2>
+      <p class="profile-gender">Gender: Male</p>
+      <p class="profile-location">Located in: Turku, Itäharju</p>
+      <p class="profile-age">Age: 3 years old</p>
+      <p class="profile-description">Description: Fluffy is a sweet and cuddly cat who loves to be petted. She has a playful side and enjoys chasing toy mice.</p>
+    </div>
+    <div class="profile-card">
+      <img src="images/keltainen kissa.jpg" alt="Cat 2" class="profile-image">
+      <h2 class="profile-name">Karvinen</h2>
+      <p class="profile-gender">Gender: Female</p>
+      <p class="profile-location">Turku, Martti</p>
+      <p class="profile-age">Age: 2 years old</p>
+      <p class="profile-description">Description: Whiskers is a curious and adventurous cat who loves to explore her surroundings. She's also a great listener and loves to snuggle.</p>
+    </div>
+  </div>
+
+  <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function myFunction() {
+      var x = document.getElementById("nav-links");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>

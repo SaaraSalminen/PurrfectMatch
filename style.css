@@ -1,7 +1,7 @@
 /* Style the navigation menu */
 .top-nav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #CCA7FB; /* set the background color to #CCA7FB */
     position: relative;
 }
 
@@ -9,7 +9,7 @@
 .top-nav #nav-links {
     display: none;
 }
-  
+
 /* Style navigation menu links */
 .top-nav a {
     color: white;
@@ -18,7 +18,7 @@
     font-size: 17px;
     display: block;
 }
-  
+
 /* Style the hamburger menu */
 .top-nav a.icon {
     background: black;
@@ -26,7 +26,9 @@
     position: absolute;
     right: 0;
     top: 0;
+    padding: 14px 16px;
 }
+
 /* Add a grey background color on mouse-over */
 .top-nav a:hover {
     background-color: #ddd;
@@ -39,6 +41,131 @@
     color: rgb(0, 0, 0);
 }
 
-img { 
-    max-width: 100%;
+/* Style the header */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
 }
+
+/* Style the news section */
+.news-section {
+    background-color: #F2F2F2;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.news-section h2 {
+    font-size: 30px;
+}
+
+.news-section img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.news-section p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.animal-menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.animal-menu-item {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 30px;
+}
+
+.animal-menu-item:hover {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.animal-pic {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 10%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* media query for mobile */
+@media screen and (max-width: 600px) {
+    .animal-menu {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .animal-menu-item {
+        margin: 5px 0;
+    }
+
+    .animal-pic {
+        padding: 0;
+    }
+}
+
+.back-button {
+    text-align: right;
+    margin: 10px;
+}
+
+.profile-card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+   
+
+      width: 400px;
+      text-align: center;
+    }
+    .profile-card img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    
+    
+    
+    
