@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Purrfect Match</title>
+    <title>Login</title>
 </head>
-
 <body>
     <div class="top-nav">
         <a href="index.html" class="active">Purrfect Match</a>
@@ -18,29 +16,17 @@
             <a href="aboutUs.html">About us</a>
             <a href="Profile.html">Profiles</a>
             <a href="login.html">Login</a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
     </div>
-    <h1>Purrfect match</h1>
+    <h1>Login</h1>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br>
 
-    <h2>Profile</h2>
-    <p>[This page is only visible for shelter workers]</p>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
 
-    <script>
-        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-        function myFunction() {
-            var x = document.getElementById("nav-links");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
-        }
-    </script>
-
-
+        <input type="submit" value="Login">
+    </form>
+    <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
 </body>
-
 </html>
