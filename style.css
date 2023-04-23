@@ -147,23 +147,62 @@ img {
     text-align: right;
     margin: 10px;
 }
+/* Style the animal profiles */
+.animal-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  /* Style the profile cards */
+  .profile-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  .profile-image {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .profile-gender,
+  .profile-location,
+  .profile-age,
+  .profile-description {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .adopt-me-btn {
+    background-color: #CCA7FB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .adopt-me-btn:hover {
+    background-color: #A386E5;
+  }
+  
 
-.profile-card {
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-   
 
-      width: 400px;
-      text-align: center;
-    }
-    .profile-card img {
-      width: 300px;
-      height: 300px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
 
     
     
