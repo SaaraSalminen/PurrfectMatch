@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-
-    <title>Purrfect Match Map</title>
+    <title>Purrfect Match</title>
 </head>
+
 <body>
     <div class="top-nav">
-        <a href="index.html">Purrfect Match Map</a>
+        <a href="index.html" class="active">Purrfect Match</a>
         <div id="nav-links">
             <a href="animalProfile.html">Animals looking for new homes</a>
             <a href="aboutUs.html">About us</a>
@@ -22,11 +23,24 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
-    <div id="map">
-        <p>Here is a map of the animals looking for homes (just pretend that it's there)</p>
-        <img src="images/kartta.png" alt="map">
-    </div>
-    
-        
+    <h1>Purrfect match</h1>
+
+    <h2>Profile</h2>
+    <p>[This page is only visible for shelter workers]</p>
+
+    <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function myFunction() {
+            var x = document.getElementById("nav-links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+
 </body>
+
 </html>
