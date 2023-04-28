@@ -22,11 +22,28 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
+    <div class ="animal-pic"></div>
     <div id="map">
         <p>Here is a map of the animals looking for homes (just pretend that it's there)</p>
         <img src="images/kartta.png" alt="map">
     </div>
-    
-        
+</div>
+    <script>
+        function toggleMenu() {
+            var navLinks = document.getElementById("nav-links");
+            if (navLinks.style.display === "block") {
+                navLinks.style.display = "none";
+            } else {
+                navLinks.style.display = "block";
+            }
+        }
+    </script>
+        <footer>
+            <h2>Links</h2>
+            <a href ="animalProfile.html">Animals looking for new homes</a><br>
+            <a href ="aboutUs.html">About us</a><br>
+            <a href ="privatProfile.html">Profiles</a><br>
+            <a href ="login.html">Login</a>
+        </footer>
 </body>
 </html>
